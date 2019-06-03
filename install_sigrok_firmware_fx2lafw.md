@@ -28,3 +28,6 @@ In order to get the sigrok-firmware-fx2lafw source code and build it, run:
      $ ./configure
      $ make
      $ make install
+
+
+Source: https://github.com/merbanan/sigrok-firmware-fx2lafw
