@@ -21,9 +21,10 @@ Building and installing sigrok-firmware-fx2lafw
 
 In order to get the sigrok-firmware-fx2lafw source code and build it, run:
 
- $ git clone git://sigrok.org/sigrok-firmware-fx2lafw
- $ cd sigrok-firmware-fx2lafw
- $ ./autogen.sh
- $ ./configure
- $ make
- $ make install
+     $ apt-get install sdcc
+     $ git clone git://sigrok.org/sigrok-firmware-fx2lafw
+     $ cd sigrok-firmware-fx2lafw
+     $ ./autogen.sh
+     $ ./configure
+     $ make
+     $ make install
